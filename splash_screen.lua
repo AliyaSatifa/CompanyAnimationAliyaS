@@ -124,9 +124,6 @@ function scene:hide( event )
     -- Called immediately after scene goes off screen.
     elseif ( phase == "did" ) then
         
-        -- stop FAZ Games channel for this screen
-        audio.stop(FAZGamesChannel)
-    end
 
 end --function scene:hide( event )
 
